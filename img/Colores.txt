@@ -1,0 +1,2 @@
+Verde :  #255C3B
+Amarillo: #DCDC18

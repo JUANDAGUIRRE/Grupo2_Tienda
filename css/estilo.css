@@ -1,4 +1,14 @@
-* {
+.logos{
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+.btnRegistro{
+    float: right;
+    
+}
+
+/** {
     box-sizing: border-box;
     margin: 0;
     padding: 0%;
@@ -47,4 +57,4 @@ body {
 
 #enviar_registro {
     text-decoration: none;
-}
+}*/

@@ -1,9 +1,13 @@
-* {
+.logos{
+    width: 20%;
+    height: 20%;
+
+/** {
     box-sizing: border-box;
     margin: 0;
     padding: 0%;
-    background-color: aqua;
-}
+    background-color: white;
+} 
 
 body {
     background: #d8b394;
@@ -13,15 +17,18 @@ body {
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
 }
-
+.logos{
+    width: 20%;
+    height: 20%;
+}
 #navegacion {
     background-color: rgb(182, 89, 89);
 }
-
 #logo {
-    width: 60%;
-    height: 60%;
+    width: 30%;
+    height: 30%;
 }
+
 
 #btn_registroDeUsuarios {
     border-radius: 50%;
@@ -47,4 +54,4 @@ body {
 
 #enviar_registro {
     text-decoration: none;
-}
+}*/
