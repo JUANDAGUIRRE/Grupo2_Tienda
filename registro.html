@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <script src="javascript/validaciones.js"></script>
     <header>
         <nav id="navegacion">
             <div id="row">
@@ -26,7 +27,7 @@
                 <p>Nombre de Usuario: </p><input type="text" id="nombre_usuario">
                 <p>Año de nacimiento: </p><input type="number" id="anoNacimiento_usuario">
                 <p>Contraseña: </p><input type="text" id="contrasena_usuario">
-                <p><button id="enviar_registro">Enviar</button></p>
+                <p><button id="enviar_registro" onclick="validar_nombre_usuario(),validar_anoNacimiento_usuario(),validar_contrasena()">Enviar</button></p>
             </form>
         </section>
 </body>
