@@ -5,10 +5,10 @@ function validar_nombre_usuario(string){
     if(string.match(alphaExp))
     {
         if(string.charAt(0)===string.charAt(0).toUpperCase());
-        alert("falso");
+        console.log("verdadero");
     }
     else{
-        alert("verdadero");
+        console.log("falso");
     }
 
 }
@@ -17,14 +17,14 @@ function validar_anoNacimiento_usuario(valor){
     const valor = document.getElementById("anoNacimiento_usuario").value;
 
     if(isNaN(valor)){
-        return falso;
+        console.log("falso");
     }
     else{
         if(valor >= 1900 && valor <= 2021){
-            return verdadero;
+            console.log("verdadero");
         }
         else{
-            return falso;
+            console.log("falso");
         }
     }
 }
@@ -36,13 +36,13 @@ function validar_contrasena(string){
 
     if(string.lenght>=6 && string.match(alphaNum) ){
         if(string.match(alphaNumEsp)){
-            return verdadero;
+            console.log("verdadero");
         }
         else{
-            return falso;
+            console.log("falso");
         }
     }
-    return falso;
+    console.log("falso");
 
 }
 
