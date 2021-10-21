@@ -32,9 +32,10 @@ function validar_anoNacimiento_usuario(valor){
 function validar_contrasena(contrasena){
     var contrasena = document.getElementById("contrasena_usuario").value;
     //const alphaNum = /^[a-z0-9]+$/i;
-    const alphaNumEsp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/i;
+    //const alphaNumEsp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/i;
+    alphaNumEsp = /[A-Za-z0-9]/;
 
-    if(contrasena.lenght >= 6 && contrasena.match(alphaNumEsp)){
+    if(contrasena.match(alphaNumEsp) && contrasena.length > 5){
         return true;
 
     }
