@@ -25,8 +25,8 @@
             <h1>Eventos Educativos AD</h1>
             <form id="registrar_usuario_form" action="">
                 <p>Nombre de Usuario: </p><input type="text" id="nombre_usuario">
-                <p>Año de nacimiento: </p><input type="number" id="anoNacimiento_usuario">
-                <p>Contraseña: </p><input type="text" id="contrasena_usuario">
+                <p>Año de nacimiento: </p><input type="number" id="anoNacimiento_usuario" min="1900" max="2021">
+                <p>Contraseña: </p><input type="password" id="contrasena_usuario">
                 <p><button id="enviar_registro" onclick="validar_nombre_usuario(),validar_anoNacimiento_usuario(),validar_contrasena()">Enviar</button></p>
             </form>
         </section>
