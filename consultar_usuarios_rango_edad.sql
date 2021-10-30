@@ -1,0 +1,1 @@
+SELECT * FROM `usuarios` WHERE `anoNacimiento` <= '2001' 
